@@ -10,7 +10,7 @@ const FindTicketForm = () => {
 
 
     return(
-        <div className={classes.CenterContainer} style={{height:'90vh'}}>
+        <div className={classes.CenterContainer} style={{minHeight:'90vh'}}>
             <div className={classes.FormContainer}>
                 <h3 className={classes.FormTitle}>BOOK</h3>
                 <p className={classes.FormTitle}>YOUR TICKET</p><br/>
@@ -36,8 +36,8 @@ const FindTicketForm = () => {
                 </div>
 
                 <div className="input-field">
-                    <input type="text" className="datepicker" />
-                    <label htmlFor="email_id">Choose Date ...</label>
+                    <input id='date' type="text" className="datepicker" />
+                    <label htmlFor="date">Choose Date ...</label>
                 </div>
 
                 <button className={`${classes.BtnWide} waves-effect waves-light btn purple darken-4`}>FIND TRAINS</button>

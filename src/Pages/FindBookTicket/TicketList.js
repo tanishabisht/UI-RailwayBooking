@@ -1,8 +1,32 @@
-
+import { TicketFindCard } from '../../Components'
+import Masonry from 'react-masonry-css'
+import classes from './FindBookTicket.module.css'
 
 const TicketList = () => {
+
+    const breakpointColumnsObj = {
+        default: 3,
+        1100: 2,
+        700: 1,
+        500: 1
+    }
+
     return(
-        <h1>Ticket List Page</h1>
+        <div className={classes.CenterContainer} style={{minHeight:'90vh'}}>
+            <Masonry
+                breakpointCols={breakpointColumnsObj}
+                className="my-masonry-grid"
+                columnClassName="my-masonry-grid_column">
+                <TicketFindCard/>
+                <TicketFindCard/>
+                <TicketFindCard/>
+                <TicketFindCard/>
+                <TicketFindCard/>
+                <TicketFindCard/>
+                <TicketFindCard/>
+                <TicketFindCard/>
+            </Masonry>
+        </div>
     )
 }
 
