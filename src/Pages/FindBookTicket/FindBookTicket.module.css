@@ -1,0 +1,21 @@
+.CenterContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.FormContainer {
+    background-color: #fff;
+    padding: 2rem;
+    width: 30rem;
+    box-shadow: 0 8px 32px 0 #691b9a65;
+}
+
+.FormTitle {
+    text-align: center;
+    color: #691b9a;
+}
+
+.BtnWide {
+    width: 100%;
+}
