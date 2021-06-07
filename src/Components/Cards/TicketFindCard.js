@@ -1,22 +1,25 @@
 import classes from './Cards.module.css'
+import { NavLink } from 'react-router-dom'
 
-const TicketFindCard = () => {
+const TicketFindCard = props => {
 
-    const user_data = {
-        name: 'NAME OF THE TRAIN',
-        from: 'HERE',
-        to: 'HERE',
-        time: 'TIMINGS',
-        pnrNumber: '726387263'
-    }
+    const { idNum, name, fromPlace, toPlace, timing, pnrNumber, state } = props
+
+    // const user_data = {
+    //     name: 'NAME OF THE TRAIN',
+    //     from: 'HERE',
+    //     to: 'HERE',
+    //     time: 'TIMINGS',
+    //     pnrNumber: '726387263'
+    // }
 
 
     return(
         <div className={classes.TicketFindContainer}>
-            <h5>{user_data.name}</h5>
-            <p><strong>FROM</strong> {user_data.from} <strong>TO</strong> {user_data.to}</p>
-            <p><strong>TIMINGS:</strong> {user_data.time}</p>
-            <p><strong>PNR NUMBER:</strong> {user_data.pnrNumber}</p>
+            <NavLink className={classes.TicketTitle} to={`/ticket_book/${state}/${idNum}`}><h5>{name}</h5></NavLink>
+            <p><strong>FROM</strong> {fromPlace} <strong>TO</strong> {toPlace}</p>
+            <p><strong>TIMINGS:</strong> {timing}</p>
+            <p><strong>PNR NUMBER:</strong> {pnrNumber}</p>
         </div>
     )
 }

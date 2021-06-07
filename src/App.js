@@ -1,8 +1,9 @@
 import { HashRouter, Switch, Route } from 'react-router-dom'
-import { Auth, Profile, FindTicketForm, TicketList, BookTicket, PNRStatus } from './Pages'
+import { Auth, Profile, FindTicketForm, BookTicket, PNRStatus } from './Pages'
 import { Navbar, Footer } from './Components'
 import 'materialize-css/dist/css/materialize.min.css';
 import './app.css'
+
 
 function App() {
   return (
@@ -13,8 +14,7 @@ function App() {
           <Switch>
             <Route exact path='/' component={Profile} />
             <Route exact path='/ticket_find' component={FindTicketForm}/>
-            <Route exact path='/ticket_list' component={TicketList}/>
-            <Route exact path='/ticket_book' component={BookTicket}/>
+            <Route exact path='/ticket_book/:state/:id' component={BookTicket}/>
             <Route exact path='/pnr_status' component={PNRStatus}/>
             <Route exact path='/auth' component={Auth} />
           </Switch>
@@ -26,3 +26,6 @@ function App() {
 }
 
 export default App
+
+
+// <Route exact path='/ticket_list' component={TicketList}/>
