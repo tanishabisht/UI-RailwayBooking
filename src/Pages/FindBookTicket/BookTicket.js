@@ -28,21 +28,9 @@ const BookTicket = () => {
             console.log(res.data[id])
             setTicket_info(res.data[id])
         }).catch(err => console.error(err))
-    }, [])
+    }, [id, state])
 
-    // const ticket_info = {
-    //     trainName: 'VIAB EXPRESS',
-    //     from: 'Delhi',
-    //     to: 'Chennai',
-    //     time: '20.00pm',
-    //     pnrNumber: '236571273523',
-    //     type: [
-    //         {type:'AC 3 Tier (#A)', price:'600'},
-    //         {type:'AC 3 Tier (#A)', price:'600'},
-    //         {type:'AC 3 Tier (#A)', price:'600'}
-    //     ]
-    // }
-
+    
     return(
         <div className={classes.CenterContainer} style={{minHeight:'90vh'}}>
         {ticket_info!==null ?

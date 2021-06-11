@@ -51,12 +51,26 @@ const FindTicketForm = () => {
                 <h3 className={classes.FormTitle}>BOOK</h3>
                 <p className={classes.FormTitle}>YOUR TICKET</p><br/>
                 
+                
                 <div className="input-field">
-                    <select defaultValue='' onChange={changeStateHandler}>
-                        <option value="" disabled>Choose a state</option>
+                    <select defaultValue=''>
+                        <option value="" disabled>Choose a state ...</option>
                         {statesList.map(state => <option key={state} value={state}>{state}</option>)}
                     </select>
-                    <label>From / To</label>
+                    <label>From</label>
+                </div>
+
+                <div className="input-field">
+                    <select defaultValue='' onChange={changeStateHandler}>
+                        <option value="" disabled>Choose a state ...</option>
+                        {statesList.map(state => <option key={state} value={state}>{state}</option>)}
+                    </select>
+                    <label>To</label>
+                </div>
+
+                <div className="input-field">
+                    <input id='date' type="text" className="datepicker" />
+                    <label htmlFor="date">Choose Date ...</label>
                 </div>
 
                 <button onClick={findTrainsHandler} className={`${classes.BtnWide} waves-effect waves-light btn purple darken-4`}>FIND TRAINS</button>
@@ -78,21 +92,3 @@ const FindTicketForm = () => {
 }
 
 export default FindTicketForm
-
-
-
-
-// <div className="input-field">
-// <select defaultValue=''>
-//     <option value="" disabled>Choose your option</option>
-//     <option value="1">New Delhi</option>
-//     <option value="2">Chennai</option>
-//     <option value="3">Maharashtra</option>
-// </select>
-// <label>To</label>
-// </div>
-
-// <div className="input-field">
-// <input id='date' type="text" className="datepicker" />
-// <label htmlFor="date">Choose Date ...</label>
-// </div>

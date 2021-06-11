@@ -28,13 +28,13 @@ const PNRStatus = () => {
   
 
     const pnr_data = [
-        ['PNR Number', '43242351223'],
-        ['Date of Journey', '22-4-2021'],
-        ['From', 'Tambaram (TBM)'],
-        ['To', 'Vishakapatnam (VKSP)'],
-        ['Train Number', '12664'],
-        ['Booking Status', 'W/L 22 CK'],
-        ['Class', 'AC 3']
+        ['PNR Number', '22524'],
+        ['Date of Journey', '22 June 2021'],
+        ['From', 'Kota (KOTA)'],
+        ['To', 'Delhi (NZM)'],
+        ['Train Name', 'Hazrat Nizamuddin SpecialFare SF Special'],
+        ['Booking Status', 'Booked'],
+        ['Seat Type', '2A Tier (#A)']
     ]
     
     useEffect(() => {
