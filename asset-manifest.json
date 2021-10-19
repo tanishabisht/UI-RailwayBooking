@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/FrontendTemplate-RailwayBooking/static/css/main.7ad00003.chunk.css",
+    "main.js": "/FrontendTemplate-RailwayBooking/static/js/main.ada5165e.chunk.js",
+    "main.js.map": "/FrontendTemplate-RailwayBooking/static/js/main.ada5165e.chunk.js.map",
+    "runtime-main.js": "/FrontendTemplate-RailwayBooking/static/js/runtime-main.6573fa17.js",
+    "runtime-main.js.map": "/FrontendTemplate-RailwayBooking/static/js/runtime-main.6573fa17.js.map",
+    "static/css/2.95ff951f.chunk.css": "/FrontendTemplate-RailwayBooking/static/css/2.95ff951f.chunk.css",
+    "static/js/2.7e77a6e8.chunk.js": "/FrontendTemplate-RailwayBooking/static/js/2.7e77a6e8.chunk.js",
+    "static/js/2.7e77a6e8.chunk.js.map": "/FrontendTemplate-RailwayBooking/static/js/2.7e77a6e8.chunk.js.map",
+    "index.html": "/FrontendTemplate-RailwayBooking/index.html",
+    "static/css/2.95ff951f.chunk.css.map": "/FrontendTemplate-RailwayBooking/static/css/2.95ff951f.chunk.css.map",
+    "static/css/main.7ad00003.chunk.css.map": "/FrontendTemplate-RailwayBooking/static/css/main.7ad00003.chunk.css.map",
+    "static/js/2.7e77a6e8.chunk.js.LICENSE.txt": "/FrontendTemplate-RailwayBooking/static/js/2.7e77a6e8.chunk.js.LICENSE.txt",
+    "static/media/app.css": "/FrontendTemplate-RailwayBooking/static/media/bg.0400de6a.jpg",
+    "static/media/logo.df39b905.png": "/FrontendTemplate-RailwayBooking/static/media/logo.df39b905.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6573fa17.js",
+    "static/css/2.95ff951f.chunk.css",
+    "static/js/2.7e77a6e8.chunk.js",
+    "static/css/main.7ad00003.chunk.css",
+    "static/js/main.ada5165e.chunk.js"
+  ]
+}
