@@ -1,5 +1,7 @@
 # Railway Booking
-User will be able to do the following:
+This is a react template repository. Feel free to use it, to integrate your APIs :)
+
+## Static pages available for users to
 - Find Tickets
 - List all the available tickets
 - Book a ticket
