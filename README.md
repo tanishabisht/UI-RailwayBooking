@@ -1,14 +1,26 @@
 # Railway Booking
-This is a react template repository. Feel free to use it, to integrate your APIs :)
+This is a React template repository for railway booking. Feel free to use it and integrate your APIs.
 
+
+# Screenshot
 <img src='proj_img.png' style="width:100%;height:auto;max-width:500px" />
 
-## Static pages available for users to
+
+## Features
 - Find Tickets
 - List all the available tickets
 - Book a ticket
 - View all their booked tickets
 - Check for the PNR Status
 
-## Dependencies
-`materialize-css` `react-router-dom` `react-masonry-css`
+
+## Instructions to run the application
+- Clone the repo: `git clone git@github.com:tanishabisht/UI-RailwayBooking.git`
+- Go to the correct directory: `cd UI-RailwayBooking`
+- Use the node version: `v16.20.2`
+- Install all dependancies: `npm install`
+- Run the application: `npm start`
+
+
+## Technologies used
+`react` `materialize-css` `react-masonry-css` `gh-pages`
